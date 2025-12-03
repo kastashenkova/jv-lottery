@@ -9,7 +9,7 @@ public class Ball {
         this.number = number;
     }
 
-    enum Color {
+    public enum Color {
         YELLOW,
         RED,
         BLUE,
