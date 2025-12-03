@@ -9,16 +9,6 @@ public class Ball {
         this.number = number;
     }
 
-    public enum Color {
-        YELLOW,
-        RED,
-        BLUE,
-        GREEN,
-        BLACK,
-        WHITE,
-        ORANGE
-    }
-
     @Override
     public String toString() {
         return "Ball [color=" + color + ", number=" + number + "]";
